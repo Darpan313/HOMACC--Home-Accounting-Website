@@ -13,8 +13,8 @@ $mail->Password = 'darnyvirus3131'; // SMTP password
 $mail->SMTPSecure = 'tls';                         // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                 // TCP port to connect to
 
-$mail->setFrom('darpanpatel3131@gmail.com', 'darnyvirus3131');
-$mail->addReplyTo('darpanpatel3131@gmail.com', 'darnyvirus3131');
+$mail->setFrom('darpanpatel3131@gmail.com', '');
+$mail->addReplyTo('darpanpatel3131@gmail.com', '');
 $mail->addAddress('hiteshbothrabansal@gmail.com');   // Add a recipient
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
